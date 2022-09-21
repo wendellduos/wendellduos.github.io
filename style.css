@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+body {
+  background: #212121;
+}
+
+/*header content*/
+.dark-top {
+  background-image: url("https://i.imgur.com/WnY8HZl.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  margin: 50px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  max-height: 200px;
+  display: inline-block;
+  background: #EEEEEE;
+  padding: 7px;
+}
+
+.personal-names {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 17px;
+  padding-bottom: 25px;  
+  padding-top: 10px;
+  color: #EEEEEE;
+}
+
+.social-box {
+  display: inline-block;
+  background: #EEEEEE;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;  
+  margin-right: 100px;
+}
+
+/*website's body content*/
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  list-style-type: none;  
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 85px;
+}
+
+.logo {
+  position: relative;
+  bottom: 3px;
+  max-height: 25px;
+  padding: 5px;
+}
+
+/*body text*/
+.bio-button {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.idioma-button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #EEEEEE;
+  max-height: 50px;
+  background-color: #212121;
+  border-color: #EEEEEE;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  position: relative;
+  top: 45px;
+}
+
+.mini-title {
+  position: relative;
+  bottom: 5px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #EEEEEE;
+}
+
+.paragraph {
+  position: relative;
+  bottom: 40px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: #EEEEEE;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.spotify-player {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.italic-spot {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  color: #EEEEEE;
+}
+
+.other-projects {
+  margin-left: 50px;
+  position: relative;
+  bottom: 5px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #EEEEEE;
+}
+
+.album {
+  background: #EEEEEE;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 21px;
+  padding-bottom: 18px;
+}
+
+.images-main {
+  display : flex;
+  width: 95%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.video {
+  padding: 50px;
+}
+
+.yt-vid {
+  width: 100%;
+  height: 487px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+/*footer*/
+.notes-formatting {
+  background: #41AEA9;
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.notes-title {
+  position: relative;
+  bottom: 5px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #212121;
+}
+
+.paragraph-notes {
+  position: relative;
+  bottom: 40px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #212121;
+  text-align: justify;
+}

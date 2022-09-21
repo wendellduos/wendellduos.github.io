@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Wendel</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header>
+    <div class="dark-top">
+      <img class="profile-image" src="https://github.com/wendellduos.png" />
+        <div class="personal-names">
+          <h1>Wendel Duarte dos Santos</h1>
+          <h2>CYCLR</h2>
+        </div>
+    </div>
+        <div class="social-box">
+      <div class="links">
+        <img class="logo" src="https://i.imgur.com/2w6TfiT.png">
+        <li><a style="text-decoration: none; color: #212121; margin-right: 20px;" href="https://www.youtube.com/channel/UCzTpCBDwrSQGz9wq3kgmU7w">YouTube</a></li>
+        <img class="logo" src="https://i.imgur.com/CCnSEVu.png">
+        <li><a style="text-decoration: none; color: #212121; margin-right: 20px;" href="https://open.spotify.com/artist/4KS4PTg3LrokVStfqk1x2G?si=nRiA4KzqQCSZK8ilWtqqmw">Spotify</a></li>
+        <img class="logo" src="https://i.imgur.com/THuBnVN.png">
+        <li><a style="text-decoration: none; color: #212121; margin-right: 20px;" href="https://www.instagram.com/wendel_du0/">Instagram</a></li>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="bio-button">
+      <h4 class="mini-title" id="bio"></h4>
+      <button class="idioma-button" type="text" onClick="changeLang()" id="changeLang">Alterar Idioma
+      </button>
+    </div>
+    <div>
+      <p class="paragraph" onClick="bioText()" id="bio-text"></p>
+    </div>
+    <div class="spotify-player">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4B13DFigMkdr1LYUokEANn?utm_source=generator&theme=0" width="100%" height="180" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <p class="italic-spot" onClick="spotifyText()" id="spotifyText">"There is something so mesmerizing about the apparent stillness of nature. The song 'motion in emotional hiatus' tries to incorporate that feeling through subtle changes in melodies, textures, and constant progression, representing nature's continuous growth and it's life cycle."</p>
+    </div>
+    <p class="other-projects" onClick="otherProj()" id="otherTxt"></p>
+    <div class="album">
+      <div class="column">
+        <img class="images-main" src="https://i.imgur.com/gCx7YnH.jpg">
+        <img class="images-main" src="https://i.imgur.com/bLRgD4u.jpg">
+        <img class="images-main" src="https://i.imgur.com/wmCIJfh.jpg">
+        <img class="images-main" src="https://i.imgur.com/TDBFmh0.jpg">
+        <img class="images-main" src="https://i.imgur.com/W5825J2.jpg">
+        <img class="images-main" src="https://i.imgur.com/ufA2pkc.jpg">
+      </div>
+    </div>
+    <div class="video">
+      <iframe class="yt-vid" width="560" height="315" src="https://www.youtube.com/embed/pjpmjwgWVNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="yt-vid" width="560" height="315" src="https://www.youtube.com/embed/wMUvKwh5ZzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </main>
+</body>
+<footer>
+  <div class="notes-formatting">
+    <h4 class="notes-title" id="notes"></h4>
+    <p class="paragraph-notes" onClick="notesText()" id="notesText"></p>
+  </div>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
